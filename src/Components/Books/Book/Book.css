@@ -1,0 +1,48 @@
+.Book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: rgba(224, 224, 2244, 0.59);
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.Book:hover {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .25);
+}
+
+.Book img {
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, .4);
+}
+
+.Book p {
+    text-align: left;
+    padding: 0;
+}
+
+.Book .Categories {
+    color: #858585;
+    margin: 10px 0 0 0;
+    text-decoration: underline;
+}
+
+.Book .Title {
+    font-weight: bold;
+}
+
+.Book .Authors {
+    color: #858585;
+    margin: 10px 0 0 0;
+}
+
+@media (max-width: 450px) {
+    .Book{
+        width: 250px;
+    }
+}

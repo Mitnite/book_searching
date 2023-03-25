@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+
+}
+
+.Books-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 330px 330px 330px 330px
+}
+
+.loader_button{
+  margin: 25px;
+  width: 150px;
+  height: 40px;
+  background-color: navajowhite;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.loader_button:hover{
+  border: 1px solid black;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .25);
+}
+
+.gif_loader{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 1650px) {
+  .Books-container{
+    grid-template-columns: 330px 330px 330px
+
+  }
+}
+
+@media (max-width: 1250px) {
+  .Books-container{
+    grid-template-columns: 330px 330px
+
+  }
+}
+
+@media (max-width: 800px) {
+  .Books-container{
+    grid-template-columns: 300px
+  }
+}
+@media (max-width: 450px) {
+  .Books-container{
+    grid-template-columns: 250px
+  }
+}
+
+

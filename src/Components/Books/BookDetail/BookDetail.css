@@ -1,0 +1,56 @@
+.BookDetail {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.BookDetail-img{
+    background-color: rgba(201, 201, 203, 0.59);
+    width: 500px;
+    padding: 50px 0;
+}
+
+.BookDetail-descr{
+    padding: 50px;
+    width: 625px;
+}
+
+.BookDetail img {
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, .4);
+    width: 65%;
+}
+
+.BookDetail p {
+    text-align: left;
+    padding: 0;
+}
+
+.BookDetail .Categories {
+    color: #858585;
+    margin: 10px 0 0 0;
+
+
+}
+
+.BookDetail .Title {
+    font-weight: bold;
+}
+
+.BookDetail .Authors {
+    color: #858585;
+    margin: 10px 0 0 0;
+    text-decoration: underline;
+}
+
+.BookDetail .Description{
+    text-align: justify;
+}
+
+@media (max-width: 450px) {
+    .Book{
+        width: 250px;
+    }
+}
