@@ -1,18 +1,18 @@
-.Header{
-    height: 250px;
+.Header {
+    height: 350px;
     background: linear-gradient(180deg, rgba(58, 51, 48, 0) 0%, rgba(58, 51, 48, 0.31558) 0.01%, rgba(58, 51, 48, 0.581335) 0.02%, rgba(58, 51, 48, 0.68) 45.86%, rgba(58, 51, 48, 0.68) 64.09%), url("../../img/book.jpeg") center center/cover no-repeat;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.Header h1{
+.Header h1 {
     margin: 0;
-    padding-top: 25px;
     color: white;
 }
 
-.Header form{
-    margin-top: 25px;
+.Header form {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,18 +21,18 @@
     padding: 5px;
 }
 
-.Header form input{
+.Header form input {
     border: none;
     outline: none;
 }
 
-.Header form button{
+.Header form button {
     border: none;
     background-color: white;
     cursor: pointer;
 }
 
-.Selector{
+.Selector {
     margin-top: 10px;
     padding: 10px;
     color: white;
@@ -42,11 +42,11 @@
     align-items: center;
 }
 
-.Selector select{
+.Selector select {
     height: 25px;
 }
 
-.add-sort-button{
+.add-sort-button {
     width: 150px;
     height: 30px;
     background-color: white;
@@ -56,18 +56,30 @@
     font-size: 15px;
 }
 
-.add-sort-button:hover{
+.add-sort-button:hover {
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .25);
 }
 
 @media (max-width: 450px) {
-    .Header form{
+    .Header form {
         width: 100%;
     }
-    .Selector{
+
+    .Selector {
         flex-direction: column;
     }
-    .Header{
-        height: 350px;
+
+    .Header {
+        height: 250px;
     }
+
+    .Header form {
+        margin-top: 15px;
+    }
+    .Selector {
+        margin-top: 7px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
 }
